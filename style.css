@@ -1,0 +1,14 @@
+.calculator{
+    border: 3px solid black;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding:2rem 4rem;
+    grid-gap:2rem;
+    margin-top:2rem;
+  }
+  
+  input{
+    grid-column: span 4;
+  }
+  
+  
